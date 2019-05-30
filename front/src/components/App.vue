@@ -26,6 +26,17 @@
             driverService.get("mclaren")
                 .then(res => console.log(res))
                 .catch(err => console.log(err))
+
+
+
+            driverService.getList(50, 0)
+                .then(
+                    res => console.log(
+                        JSON.stringify(res, null, 2)
+                    ));
+
+
+            driverService.getAmountOfDrivers().then(res => console.log(`Amount of drivers: ${res}`))
         },
         methods: {
 
