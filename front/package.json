@@ -31,9 +31,10 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.0.0-alpha.6",
     "d3": "^5.9.2",
-    "material-components-web": "^2.2.0",
+    "material-components-web": "^2.3.0",
     "vue": "^2.3.2",
     "vue-cli": "^2.9.6"
   }
